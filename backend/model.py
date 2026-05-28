@@ -52,5 +52,3 @@ def train_sale_split():
     
     return model
 
-print("CALLING FUNCTION")
-train_sale_split()
