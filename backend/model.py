@@ -4,6 +4,8 @@ from sklearn.metrics import mean_absolute_error
 from preprocess import load_and_preprocess_data
 
 print("FILE STARTED")
+
+
 def train_sale_split():
     print("FUNCTION STARTED")
     df = load_and_preprocess_data()
@@ -21,7 +23,7 @@ def train_sale_split():
         x,
         y,
         test_size=0.2,
-        random_state=42
+        random_state=100
     )
     print(x_test)
     print(x_train)
